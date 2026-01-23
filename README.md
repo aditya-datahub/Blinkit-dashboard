@@ -119,9 +119,8 @@ blinkit-sales-analysis-dashboard/
 │ └── blinkit_cleaned_data.xlsx
 │
 ├── images/
-│ └── dashboard.png
+│ └── dashboard_overview.png
 │
-├── Blinkit_Sales_Analysis.pbix
 ├── README.md
 ├── LICENSE
 ```
