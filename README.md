@@ -1,16 +1,19 @@
 # Blinkit Sales Analysis Dashboard | Power BI
 
-An interactive **Power BI Sales Analytics Dashboard** built using Blinkit grocery sales data to analyze sales performance, outlet efficiency, and customer purchasing behavior.  
-This project demonstrates **end-to-end data analytics workflow** from raw data cleaning to business-focused visualization.
+An interactive **Power BI sales analytics dashboard** built using Blinkit grocery sales data to evaluate **sales performance, outlet efficiency, and customer purchasing behavior**.  
+This project showcases a complete **end-to-end data analytics workflow**, from raw data preparation to insight-driven visualization.
 
 ---
 
 ## Project Objective
-- Analyze overall sales performance
-- Identify top-performing outlet types and sizes
-- Understand customer preferences by item category
-- Compare sales across outlet location tiers
-- Enable data-driven business decision-making
+The goal of this dashboard is to help stakeholders quickly understand **what drives sales and how outlet characteristics impact performance**.
+
+Key objectives:
+- Evaluate overall sales performance
+- Identify high-performing outlet types and sizes
+- Analyze customer preferences by item category and fat content
+- Compare sales distribution across outlet location tiers
+- Support data-driven business decisions through KPIs and visuals
 
 ---
 
@@ -21,7 +24,7 @@ This project demonstrates **end-to-end data analytics workflow** from raw data c
 
 ## Business Overview
 Blinkit is India’s last-minute grocery delivery platform.  
-This dashboard provides insights into **sales trends, outlet performance, and product-level metrics** across multiple dimensions such as outlet size, location, establishment year, and item categories.
+This dashboard provides actionable insights into **sales trends, outlet performance, and product-level metrics** across multiple dimensions such as outlet size, location tier, establishment year, and item categories.
 
 ---
 
@@ -29,19 +32,19 @@ This dashboard provides insights into **sales trends, outlet performance, and pr
 
 ### Raw Dataset
 - **File:** `blinkit_raw_data.xlsx`
-- Contains original, unprocessed data
-- Includes missing values and inconsistent labels
-- Preserved for transparency and reproducibility
+- Original, unprocessed sales data
+- Contains missing values and inconsistent category labels
+- Retained to ensure transparency and reproducibility
 
 ### Cleaned Dataset
 - **File:** `blinkit_cleaned_data.xlsx`
-- Cleaned and standardized for analysis
+- Cleaned, standardized, and optimized for analysis
 - Used directly in Power BI for modeling and visualization
 
 ### Why Raw & Cleaned Data Are Separated
-- Maintains data integrity
-- Allows reprocessing if needed
-- Follows industry best practices for analytics projects
+- Preserves original data integrity
+- Enables easy reprocessing if business logic changes
+- Follows industry best practices in analytics projects
 
 ### Dataset Columns
 | Column Name | Description |
@@ -62,12 +65,13 @@ This dashboard provides insights into **sales trends, outlet performance, and pr
 ---
 
 ## Data Cleaning & Preparation
+The following steps were performed prior to analysis:
 - Removed duplicate records
 - Standardized categorical values
 - Handled missing and zero values
 - Corrected inconsistent labels
-- Converted data types
-- Built data model and relationships
+- Converted columns to appropriate data types
+- Built data model relationships
 - Created calculated measures using DAX
 
 ---
@@ -77,7 +81,7 @@ This dashboard provides insights into **sales trends, outlet performance, and pr
 ### Key KPIs
 - Total Sales
 - Average Sales
-- Number of Items
+- Number of Items Sold
 - Average Customer Rating
 
 ### Visualizations
@@ -102,11 +106,11 @@ This dashboard provides insights into **sales trends, outlet performance, and pr
 ---
 
 ## Key Insights
-- Tier 3 outlets contribute the highest total sales
-- Supermarket Type1 is the best-performing outlet type
-- Medium-sized outlets generate maximum revenue
-- Low-fat items have strong sales contribution
-- Older outlets show stable long-term performance
+- Tier 3 outlets generate the highest total sales
+- Supermarket Type1 is the top-performing outlet type
+- Medium-sized outlets contribute the most revenue
+- Low-fat items show strong sales contribution
+- Older outlets demonstrate more stable sales performance
 
 ---
 
