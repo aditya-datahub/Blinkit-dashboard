@@ -1,4 +1,4 @@
-# Blinkit Sales Analysis Dashboard
+# Blinkit Sales Analysis Dashboard | Power BI
 
 An interactive **Power BI Sales Analytics Dashboard** built using Blinkit grocery sales data to analyze sales performance, outlet efficiency, and customer purchasing behavior.  
 This project demonstrates **end-to-end data analytics workflow** from raw data cleaning to business-focused visualization.
